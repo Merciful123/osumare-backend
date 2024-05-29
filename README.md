@@ -1,6 +1,6 @@
-Base URL: -   http://localhost:5000
+# Base URL: -   http://localhost:5000
 
-1: -  Authentication
+## 1: -  Authentication
 
 Login URL: /login
 
@@ -18,7 +18,7 @@ Response: status code 401, invalid credential
 
 
 
-2: -  Get All Tasks
+## 2: -  Get All Tasks
 
 URL: /api/tasks
 Method: GET
@@ -27,7 +27,7 @@ Headers: Authorization: Bearer <access_token>
 
 
 
-Pagination, Filtering, Sorting :- 
+# Pagination, Filtering, Sorting :- 
 
 Pagination:- 
 
@@ -38,7 +38,7 @@ Results:- gives the data of the specified parameters
 
 
 
-Filtering:- 
+# Filtering:- 
 
 Query Parameters:- status,    priority
 
@@ -47,7 +47,7 @@ Results: - Filters based on status and priority
 
 
 
-Sorting:-
+# Sorting:-
 
 Query Parameters:-   sortBy: title, description, status, priority
 
@@ -63,7 +63,7 @@ after failure
 Response: unauthorized
 
 
-3: - Get Task by ID
+## 3: - Get Task by ID
 
 URL: /api/tasks/:id
 
@@ -82,7 +82,7 @@ Response: status code 404, task not found
 
 
 
-4: - Create a New Task
+## 4: - Create a New Task
 
 URL: /api/tasks
 
@@ -103,7 +103,7 @@ Response: status code 400, all fields are required
 
 
 
-5: - Update an Existing Task
+## 5: - Update an Existing Task
 
 URL: /api/tasks/:id
 
@@ -124,7 +124,7 @@ Response: status code 404, task not found
 
 
 
-6: - Delete a Task
+## 6: - Delete a Task
 
 URL: /api/tasks/:id
 
