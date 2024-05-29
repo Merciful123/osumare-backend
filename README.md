@@ -1,4 +1,8 @@
-# Base URL: -   http://localhost:5000
+# Welcome to the CRUD api documentation, built using Node Js and Express js.
+
+
+
+## Base URL: -   http://localhost:5000
 
 ## 1: -  Authentication
 
@@ -27,7 +31,7 @@ Headers: Authorization: Bearer <access_token>
 
 
 
-# Pagination, Filtering, Sorting :- 
+## Pagination, Filtering, Sorting :- 
 
 Pagination:- 
 
@@ -38,7 +42,7 @@ Results:- gives the data of the specified parameters
 
 
 
-# Filtering:- 
+## Filtering:- 
 
 Query Parameters:- status,    priority
 
@@ -47,7 +51,7 @@ Results: - Filters based on status and priority
 
 
 
-# Sorting:-
+## Sorting:-
 
 Query Parameters:-   sortBy: title, description, status, priority
 
