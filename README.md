@@ -25,9 +25,35 @@ Method: GET
 Description: Retrieves a list of tasks.
 Headers: Authorization: Bearer <access_token>
 
-Query Parameters(optional) :-
-page: number
-limit: number
+
+
+Pagination, Filtering, Sorting :- 
+
+Pagination:- 
+
+Query Parameters:- page: number,    limit: number
+
+Results:- gives the data of the specified parameters 
+
+
+
+
+Filtering:- 
+
+Query Parameters:- status,    priority
+
+Results: - Filters based on status and priority
+
+
+
+
+Sorting:-
+
+Query Parameters:-   sortBy: title, description, status, priority
+
+Results: sorts data in ascending order
+
+
 
 Response: Retrieves a list of tasks.
 
